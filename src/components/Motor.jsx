@@ -10,7 +10,8 @@ function Motor({ motor }) {
           className="h-[300px] w-[400px] object-cover transition duration-300 ease-in-out hover:scale-110" // Adjusted classes for better responsiveness
         />
       </div>
-      <p className="pb-1 pt-3 text-sm font-semibold">{motor.title}</p>
+      <p className="text-md pb-1 pt-3 font-bold">{motor.title}</p>
+      <p className="text-md pb-1 pt-3 font-semibold">{motor.desc} </p>
       <p className="text-sm font-medium">{formatCurrency(motor.price)}</p>
     </div>
   );
