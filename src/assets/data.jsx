@@ -14,47 +14,71 @@ import image14 from "./images/image14.jpeg";
 import adv1 from "./images/adv1.jpg";
 import adv2 from "./images/adv2.jpg";
 import filano from "./images/filano.jpg";
+import oil1 from "./images/oil1.jpg";
+import oil2 from "./images/oil2.jpg";
+import tyre from "./images/tyre.png";
+import tyre2 from "./images/tyre2.jpg";
 
 export const motors = [
   {
     title: "VARIO",
     desc: "NEW 160 ABS ",
-    price: 5800000,
+    price: 5900000,
     image: image4,
   },
   {
     title: "VARIO",
     desc: "NEW 160 CBS ",
-    price: 5400000,
+    price: 5500000,
     image: image2,
   },
   {
     title: "PCX",
     desc: "ABS",
-    price: 6800000,
+    price: 7000000,
     image: image8,
   },
   {
     title: "PCX",
     desc: "CBS",
-    price: 6500000,
+    price: 6600000,
     image: image14,
   },
   {
     title: "ADV",
     desc: "NEW 160 CBS",
-    price: 7500000,
+    price: 7600000,
     image: adv1,
   },
   {
     title: "ADV",
     desc: "NEW 160 ABS",
-    price: 7800000,
+    price: 7900000,
     image: adv2,
   },
   {
     title: "FILANO",
-    price: 5750000,
+    price: 5300000,
     image: filano,
+  },
+  {
+    title: "CASTROL OIL",
+    price: 120000,
+    image: oil1,
+  },
+  {
+    title: "MPX2 OIL",
+    price: 200000,
+    image: oil2,
+  },
+  {
+    title: "TYRE 90 * 90",
+    price: 65000,
+    image: tyre,
+  },
+  {
+    title: "TYRE 100 * 90",
+    price: 90000,
+    image: tyre2,
   },
 ];
